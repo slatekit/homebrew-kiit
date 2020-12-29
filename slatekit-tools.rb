@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class SlatekitTools < Formula
+class Slatekit < Formula
   desc "Slate Kit Tools for project generators"
   homepage "https://www.slatekit.com"
   url "https://github.com/code-helix/slatekit-tools/archive/slatekit_1_30_0.tar.gz"
