@@ -12,6 +12,7 @@ class SlatekitTools < Formula
 
   def install
     # system "cmake", ".", *std_cmake_args
+    bin.install "slatekit-tools.sh"
   end
 
   test do
