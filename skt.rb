@@ -14,7 +14,7 @@ class Skt < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # system "cmake", ".", *std_cmake_args
-    bin.install "skt"
+    bin.install 'skt'
   end
 
   test do
