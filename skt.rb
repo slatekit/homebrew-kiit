@@ -4,9 +4,15 @@
 class Skt < Formula
   desc ""
   homepage "https://www.slatekit.com"
+  
+  url "https://github.com/code-helix/skt/archive/v1.30.0.tar.gz"
+  sha256 "2ee46f3fd380d5efbbdf6bcbfae733cd1497ab0cee9dab31de64812d090997a2"
+  
   #url "https://github.com/code-helix/skt/archive/v1.29.0.tar.gz"
-  head 'https://github.com/code-helix/skt.git'
   #sha256 "dd4fe631a42185433b1a145f49438d31e9ba8c713d217dc3c6bb57420fafa361"
+  
+  # head 'https://github.com/code-helix/skt.git'
+  
   license "Apache-2.0"
 
   # depends_on "cmake" => :build
