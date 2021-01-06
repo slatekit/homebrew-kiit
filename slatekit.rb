@@ -23,6 +23,9 @@ class Slatekit < Formula
     puts "buildpath = #{buildpath}"
     puts "before installing skt"
     bin.install 'slatekit'
+    prefix.install Dir["lib/*"]
+    prefix.install Dir["conf/*"]
+    prefix.install Dir["templates/*"]
     puts "after  installing skt"
   end
 
