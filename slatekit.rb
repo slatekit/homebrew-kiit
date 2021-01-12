@@ -21,12 +21,12 @@ class Slatekit < Formula
   def install
     puts "prefix = #{prefix}"
     puts "buildpath = #{buildpath}"
-    puts "before installing skt"
+    puts "Beginning Slate Kit CLI installation"
     bin.install 'slatekit'
     prefix.install Dir["lib"]
     prefix.install Dir["conf"]
     prefix.install Dir["templates"]
-    puts "after  installing skt"
+    puts "Completed install"
   end
 
   
