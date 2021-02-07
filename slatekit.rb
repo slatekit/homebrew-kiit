@@ -13,8 +13,8 @@ class Slatekit < Formula
   desc ""
   homepage "https://www.slatekit.com"
   
-  url "https://github.com/slatekit/slatekit-cli/archive/v2.0.1.tar.gz"
-  sha256 "dddf9c5e3f6cbe190829c4c3fbc5111109854ff8ea5ca119359328c9fbe0fa09"
+  url "https://github.com/slatekit/slatekit-cli/archive/v2.1.3.tar.gz"
+  sha256 "01dfe9a24293ea82503d89142bf3ce9514932370bdacc425de6c90e50b43aa31"
   license "Apache-2.0"
 
   
