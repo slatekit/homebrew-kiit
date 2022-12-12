@@ -22,7 +22,7 @@ class Kiit < Formula
     puts "prefix = #{prefix}"
     puts "buildpath = #{buildpath}"
     puts "Beginning Kiit CLI installation"
-    bin.install 'slatekit'
+    bin.install 'kiit'
     prefix.install Dir["lib"]
     prefix.install Dir["conf"]
     prefix.install Dir["templates"]
