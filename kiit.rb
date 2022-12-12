@@ -13,8 +13,8 @@ class Kiit < Formula
   desc ""
   homepage "https://www.kiit.dev"
   
-  url "https://github.com/slatekit/kiit-cli/archive/v2.8.0.tar.gz"
-  sha256 "74fb46af23735177779768859430867d378b78eadabec75e3de0bdd08cfe1e8f"
+  url "https://github.com/slatekit/kiit-cli/archive/refs/tags/v2.8.0.tar.gz"
+  sha256 "433b6e29522d5957d038457dbfc37d44c714ca72b6a6328121ac924e0d9fcf38"
   license "Apache-2.0"
 
   
